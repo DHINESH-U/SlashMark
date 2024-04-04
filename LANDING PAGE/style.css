@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10px;
+    background-color:transparent;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding : 0px 50px;
+    align-items: center;
+    font-size: 18px;
+    list-style: none;
+    color: white;
+    
+    
+}
+.logo{
+    margin-right: auto;
+    padding-left: 10px;
+    width: 50px;
+}
+a{
+    text-decoration: none;
+    color:gray;
+    
+}
+body{
+    background-color: black;
+}
+.hoi{
+    position: relative;
+    top: -140px;
+    height: 650px;
+    left: 250px;
+}
+a:hover{
+    color: white;
+    transition: all .3s;
+
+}
+h1{
+    font-size:130px;
+    position: absolute;
+    top: 160px;
+    right: 320px;
+    
+    
+    background: linear-gradient(hsl(206, 4%, 24%), hsl(206, 4%, 8%));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+div{
+    position: absolute;
+    top: 250px ;
+    width: 400px;
+    right: 350px; 
+    height: fit-content;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 15px;
+    line-height: 1.8rem;
+    margin-bottom: 30px;
+    
+}
+.bt{
+    background-color: rgb(32, 30, 30);
+    padding: 14px;
+    width: 550px;
+    border-radius: 8px;
+}
+.price{
+    display: inline;
+    margin-left: 30px;
+}
+.sponsors{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.sponsors img{
+    width: 150px;
+    padding: 30px;
+    
+    
+}
+
